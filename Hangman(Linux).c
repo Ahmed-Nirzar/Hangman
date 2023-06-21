@@ -22,7 +22,7 @@ int main(void)
 	srand(time(NULL));
 
     printf("\n\n\n\t\t\t\t\t\033[42m\033[3;90mHangman\033[0m\033[0m\n\t\t\t\t\t \033[1;92m(1.0)\033[0m\n");
-    printf("\n\n\t\t\t\t    \033[1;93mPress \033[1;92my\033[0m\033[1;93m to start\033[0m\n");
+    printf("\n\n\t\t\t\t    \033[1;93mPress \033[1;92mENTER\033[0m\033[1;93m to start\033[0m\n");
     ch1 = getchar();
     if(ch1 != '\n') {
         exit(1);
@@ -30,7 +30,7 @@ int main(void)
 
     printf("\n\n\n\t\t\t\t\t\033[43m\033[1;90mDescription\033[0m\033[0m\n\n\t\t\t\033[1;93m[1]: There are total 5 levels.\n\t\t\t[2]: Each level has 5 stages.\n\t\t\t[3]: Number of letters and hyphen(-) are eqaual.\033[0m");
     printf("\n\t\t\t\033[1;93m[4]: Each time you can maximum use 15 guesses.\n\t\t\t[5]: Point = (left over guesses) multiply by 10\033[0m\n");
-    printf("\n\n\t\t\t\t    \033[1;93mPress \033[1;92my\033[0m\033[1;93m to continue\033[0m\n");
+    printf("\n\n\t\t\t\t    \033[1;93mPress \033[1;92mENTER\033[0m\033[1;93m to continue\033[0m\n");
 
     ch2 = getchar();
 
